@@ -188,9 +188,9 @@ function startGUI () {
     captureFolder.add({ fun: captureScreenshot }, 'fun').name('take screenshot');
 
     let github = gui.add({ fun : () => {
-        window.open('https://github.com/Arshiamidos/Fluid_Simulation_VSCODE');
+        window.open('https://github.com/Arshiamidos');
         ga('send', 'event', 'link button', 'github');
-    } }, 'fun').name('Github');
+    } }, 'fun').name('https://arshiamidos.github.io');
     github.__li.className = 'cr function bigFont';
     github.__li.style.borderLeft = '3px solid #8C8C8C';
     let githubIcon = document.createElement('span');

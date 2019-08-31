@@ -2,7 +2,7 @@
     "name": "fluid-simulation",
     "displayName": "fluid",
     "description": "fluid simulation webgl ",
-    "version": "0.0.3",
+    "version": "1.0.3",
     "icon": "utils/logo.png",
     "publisher": "arashmidos",
     "engines": {
