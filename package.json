@@ -1,0 +1,44 @@
+{
+    "name": "fluid-simulation",
+    "displayName": "fluid",
+    "description": "fluid simulation webgl ",
+    "version": "0.0.3",
+    "icon": "utils/logo.png",
+    "publisher": "arashmidos",
+    "engines": {
+        "vscode": "^1.37.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.fluid"
+    ],
+    "main": "./out/extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.fluid",
+                "title": "fluid 🌊🎴"
+            }
+        ]
+    },
+    "repository": {
+        "type":"git",
+        "url":"https://github.com/Arshiamidos/Fluid_Simulation_VSCODE"
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "npm run compile && node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6",
+        "tslint": "^5.8.0",
+        "@types/node": "^7.0.43",
+        "@types/mocha": "^2.2.42"
+    }
+}
